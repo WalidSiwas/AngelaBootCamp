@@ -1,0 +1,45 @@
+h2 {
+    color: red;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+body {
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction:column;
+    min-height: 95vh;
+
+}
+.main { 
+    flex: 1;
+}
+
+.card {
+    width: 45%;
+}
+
+.imgCard {
+    float: left;
+    margin-right: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+footer {
+    text-align: right;
+    position:absolute;
+    bottom:0;
+    width:97%;
+    height:60px;
+}
