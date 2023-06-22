@@ -1,0 +1,14 @@
+
+#title , #footer   { 
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.headingOFPriceCards {
+    text-align: center;
+}
+
+.dog-img {
+    height: 120px;
+    border-radius: 50%;
+}
+

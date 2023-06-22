@@ -1,0 +1,27 @@
+
+.container > div {
+    border: 2px solid black;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 50vh;
+    display: grid;
+    gap: 1rem;
+}
+
+.one {
+    grid-row: span 1;
+}
+
+.two {
+     order: 1;
+     grid-column: span 2;
+}
+
+.three {
+     grid-row: span 1;   
+}
